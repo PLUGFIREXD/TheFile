@@ -1,4 +1,7 @@
 # TheFile
-  /wefnmwef/
-  /wolergnm
-  permb
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```

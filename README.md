@@ -1,7 +1,3 @@
 # TheFile
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
+-2113211466
+-2113210252

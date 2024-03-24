@@ -1,0 +1,397 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.21f1 (4907324dc95b) revision 4785970'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32710 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.2.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/Unity/ProjectT
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50597
+Successfully changed project path to: E:/Unity/ProjectT
+E:/Unity/ProjectT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27064] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2597597582 [EditorId] 2597597582 [Version] 1048832 [Id] WindowsEditor(7,PLUGFIRE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27064] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2597597582 [EditorId] 2597597582 [Version] 1048832 [Id] WindowsEditor(7,PLUGFIRE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 4.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.21f1 (4907324dc95b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/ProjectT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.4665
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.2.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.2.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.2.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005549 seconds.
+- Loaded All Assemblies, in  0.244 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (147ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (88ms)
+				TypeCache.Initialize (87ms)
+					TypeCache.ScanAssembly (86ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (159ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (162ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		LoadAllAssembliesAndSetupDomain (331ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+				TypeCache.Initialize (185ms)
+					TypeCache.ScanAssembly (182ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (0.6 MB). Loaded Objects now: 3861.
+Memory consumption went from 137.8 MB to 137.3 MB.
+Total: 2.441100 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.085900 ms MarkObjects: 1.958100 ms  DeleteObjects: 0.197000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273225.974382 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Auto2.mat
+  artifactKey: Guid(979c5c16048ab224cb5acba29aa82472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Auto2.mat using Guid(979c5c16048ab224cb5acba29aa82472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625a89fc700c982aea3423d72801dce0') in 0.005718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.036673 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Material.058.mat
+  artifactKey: Guid(d33e4c595244d9246a500ab28042de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Material.058.mat using Guid(d33e4c595244d9246a500ab28042de2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dd9992432e344098b749481056a9f4') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Material.091.mat
+  artifactKey: Guid(1debb7cd1df96f040b2089befbe15f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Material.091.mat using Guid(1debb7cd1df96f040b2089befbe15f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c7e70dddeb256d4f45940238fb8958') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Material.104.mat
+  artifactKey: Guid(e73adedf5a1180c43b2ba3ea99fcf886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Material.104.mat using Guid(e73adedf5a1180c43b2ba3ea99fcf886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432fb1e7a3afd13e0309515ef490620') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.068546 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Material.132.mat
+  artifactKey: Guid(23e38d9136e82aa458600d58d34fd7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Material.132.mat using Guid(23e38d9136e82aa458600d58d34fd7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef2e76b008f3593ff1b75c83d8f0b3f') in 0.000862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Medidor.mat
+  artifactKey: Guid(693c5b3fe0f7acc489fe99d603718f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Medidor.mat using Guid(693c5b3fe0f7acc489fe99d603718f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e849b28893ae2ef96641bef0cd6ce2c7') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Mattress.mat
+  artifactKey: Guid(3764af597a1ed044ea8ba1193f8bf3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Mattress.mat using Guid(3764af597a1ed044ea8ba1193f8bf3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2d39d69caee9dd0a3e1a2cfd5749bd') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.538564 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Metal_06.mat
+  artifactKey: Guid(61cd83fd3f6dab141aaceed1b7ca2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Metal_06.mat using Guid(61cd83fd3f6dab141aaceed1b7ca2aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359a642867cbad3db329548e0abaec46') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Metal_08.mat
+  artifactKey: Guid(72d507665ffffc846a45c5387138321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Metal_08.mat using Guid(72d507665ffffc846a45c5387138321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2f4de2880d7d8b602eff09a917c795') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Metal_09.mat
+  artifactKey: Guid(b6be1dd594e10f34cbe2f3295bdd4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Metal_09.mat using Guid(b6be1dd594e10f34cbe2f3295bdd4d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c80ef3abbec22ec74ae6f2576a5fce') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.894692 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Paper.mat
+  artifactKey: Guid(2a6fdf6b0e749604a97e7cd7ca3b280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Paper.mat using Guid(2a6fdf6b0e749604a97e7cd7ca3b280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02836914e7b99a609ec9f11ffe5dd022') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Plants_04.mat
+  artifactKey: Guid(282f0310b69805f4d9fe67f0ddb1a3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Plants_04.mat using Guid(282f0310b69805f4d9fe67f0ddb1a3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894d961377cc0857f9332474a0cc006') in 0.000806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Plants.mat
+  artifactKey: Guid(0b65688cfc7f8a644af8986338743153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Plants.mat using Guid(0b65688cfc7f8a644af8986338743153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead1c6df1883277130f317c798440483') in 0.000727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.046438 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Plastic_01.mat
+  artifactKey: Guid(13a3c4a1eb3130e4d995ca007c5e8854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Plastic_01.mat using Guid(13a3c4a1eb3130e4d995ca007c5e8854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aac2432c89ebc9e11eb86ea95e661e') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Shelf_Store.mat
+  artifactKey: Guid(b92c1c65caf510b45807ae9b98ee774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Shelf_Store.mat using Guid(b92c1c65caf510b45807ae9b98ee774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6a13a05d7b15773377013a4f36e408') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Plastic_02.mat
+  artifactKey: Guid(744f58799ef028e42b87d8182ab6a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Plastic_02.mat using Guid(744f58799ef028e42b87d8182ab6a0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603a6e678c7e0c8cd5d3c6fc58973966') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.080751 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Shelf_Store_07.mat
+  artifactKey: Guid(0dfc4bb01501c324fb3eeadbdfab97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Shelf_Store_07.mat using Guid(0dfc4bb01501c324fb3eeadbdfab97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b9176f97f97d421162da2cb5c2fc7a') in 0.000897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Shelf_Store_13.mat
+  artifactKey: Guid(9baf0a598e3e7014ba53e78308a8c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Shelf_Store_13.mat using Guid(9baf0a598e3e7014ba53e78308a8c4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63732cdedc4424d618cb8a76b6b67419') in 0.000634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Shelf_Store_14.mat
+  artifactKey: Guid(9442e78a29c61b447a388d7a1ce852f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Shelf_Store_14.mat using Guid(9442e78a29c61b447a388d7a1ce852f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0166966ff7f030e876d621563c9a5e5a') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Shelf_Store_09.mat
+  artifactKey: Guid(9168f0abd705acf45bfe6e0f84cb3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Shelf_Store_09.mat using Guid(9168f0abd705acf45bfe6e0f84cb3049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e32f1061fc4b0e9bcb597f46cf1ce7b') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.181040 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Tiles_02.mat
+  artifactKey: Guid(b9c5a7f4189d798458728b110e26550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Tiles_02.mat using Guid(b9c5a7f4189d798458728b110e26550f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2ad375f6cc6e4df23bde16ea5a722b') in 0.000791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Trash_05.mat
+  artifactKey: Guid(8e35063aea3b8c54b98af4286f2f12c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Trash_05.mat using Guid(8e35063aea3b8c54b98af4286f2f12c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0af4bf21e40b453aa19839a2434387') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Trash_03.mat
+  artifactKey: Guid(5fb32c1ef30242c459f7015e6b3ee3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Trash_03.mat using Guid(5fb32c1ef30242c459f7015e6b3ee3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ddbb35053a465fafb5e4b0dc4b0b65') in 0.000665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.645570 seconds.
+  path: Assets/model/Models pack psx/Models/Material/TV_03.mat
+  artifactKey: Guid(71fc4810ada8ca645bb72363e167d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/TV_03.mat using Guid(71fc4810ada8ca645bb72363e167d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8322809d0ddc2cdede76775941a56071') in 0.000888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Wire2.mat
+  artifactKey: Guid(5a1539a5b7f4d474499bb03c14f5fc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Wire2.mat using Guid(5a1539a5b7f4d474499bb03c14f5fc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bab27aff17ba7df61c5fcd95b33bfe') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.031275 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Wood_05.mat
+  artifactKey: Guid(9929a2a1512d05a4a9144285e9993de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Wood_05.mat using Guid(9929a2a1512d05a4a9144285e9993de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce54566fe9221043db8ae01f2eb3303') in 0.000730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Wood_08.mat
+  artifactKey: Guid(9bc244af428c4864bba78773bdac6fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Wood_08.mat using Guid(9bc244af428c4864bba78773bdac6fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2a484e28ca30ec03bdff1e82b8e84') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/model/Models pack psx/Models/Material/Wood_09.mat
+  artifactKey: Guid(78276af40cdecbb439c303fd5e48a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/model/Models pack psx/Models/Material/Wood_09.mat using Guid(78276af40cdecbb439c303fd5e48a83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe57adab2a1e3f19acdd4c36a7b1d43') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

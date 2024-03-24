@@ -1,4 +1,4 @@
 # TheFile
-  wefnmwef
-  wolergnm
+  /wefnmwef/
+  /wolergnm
   permb
